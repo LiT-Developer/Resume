@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Trimatrix Lab">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <title>Сайт резюме</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/work.png">
+
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='fonts.googleapis.com/2.css' rel='stylesheet' type='text/css'>
+    <link href='fonts.googleapis.com/1.css' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/vendors/style.form.css" rel='stylesheet' type='text/css'>
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="fonts.googleapis.com/3.css" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+
+    <!-- MAGNIFICENT POPUP -->
+    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+
+    <!-- SWIPER -->
+    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style_dark_dark.css" id="switch_style" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+
+<!--==========================================
+                  PRE-LOADER
+===========================================-->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="box-holder animated bounceInDown">
+                <span class="load-box"><span class="box-inner"></span></span>
+            </div>
+            <!-- NAME & STATUS -->
+            <div class="text-holder text-center">
+                <h2>Титова Валерия Васильевна</h2>
+                <h6>Frontend-разработчик&Junior</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <nav id="theMenu" class="menu">
+
+        <!--MENU-->
+        <div id="menu-options" class="menu-wrap">
+
+            <!--PERSONAL LOGO-->
+            <div class="logo-flat">
+                <img alt="personal-logo" class="img-responsive" src="images/profile/john.png">
+            </div>
+            <br>
+
+            <!--OPTIONS-->
+            <a href="#home"><i class="title-icon fa fa-user"></i>Главная</a>
+            <a href="#about"><i class="title-icon fa fa-dashboard"></i>О себе</a>
+            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Образование</a>
+            <a href="#skills"><i class="title-icon fa fa-sliders"></i>Навыки</a>
+            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Опыт</a>
+            <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Портфолио</a>
+            <a href="#interest"><i class="title-icon fa fa-heart"></i>Интерес</a>
+            <a href="#contact"><i class="title-icon fa fa-envelope"></i>Контакты</a>
+        </div>
+
+        <!-- MENU BUTTON -->
+        <div id="menuToggle">
+            <div class="toggle-normal">
+                <i class="material-icons top-bar">ЛТВ</i>
+                <i class="material-icons middle-bar">ЛТВ</i>
+                <i class="material-icons bottom-bar">ЛТВ</i>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER BACKGROUND-->
+    <div class="header-background section"></div>
+
+</header>
+
+
+<!--==========================================
+                   V-CARD
+===========================================-->
+<div id="v-card-holder" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <!-- V-CARD -->
+                <div id="v-card" class="card">
+
+                    <!-- PROFILE PICTURE -->
+                    <div id="profile" class="right">
+                        <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
+                        <div class="slant"></div>
+
+                        <!--EMPTY PLUS BUTTON-->
+                        <!--<div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>-->
+
+                        <!--VIDEO PLAY BUTTON-->
+                        <div id="button-holder" class="btn-holder">
+                            <div id="play-btn" class="btn-floating btn-large btn-play">
+                                <i id="icon-play" class="material-icons">play_arrow</i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--VIDEO CLOSE BUTTON-->
+                    <div id="close-btn" class="btn-floating icon-close">
+                        <i class="fa fa-close"></i>
+                    </div>
+
+                    <div class="card-content">
+
+                        <!-- NAME & STATUS -->
+                        <div class="info-headings">
+                            <h4 class="text-uppercase left">Титова Валерия Васильевна</h4>
+                            <h6 class="text-capitalize left">Frontend-разработчик&Junior</h6>
+                        </div>
+
+                        <!-- CONTACT INFO -->
+                        <div class="infos">
+                            <ul class="profile-list">
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">Почта</i></span>
+                                    <span class="content"><a href="mailto:lovemyllife@mail.ru" class="__cf_email__" data-cfemail="fc99919d9590bc919d95908c8e938a9598998ed29f9391">lovemyllife@mail.ru</a></span>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">Город метро </i></span>
+                                    <span class="content"> Moscow - м. Нижегородская</span>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <!--LINKS изменить-->
+                        <div class="links">
+                            <!-- Telegramm-->
+                            <a href="https://t.me/oDLC_mask_DLCo" id="first_one" class="social btn-floating indigo">
+                                <i class="fa fa-telegram"></i>
+                            </a>
+                            <!-- VK -->
+                            <a href="https://vk.com/ler9613" class="social btn-floating blue">
+                                <i class="fa fa-vk"></i>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/LiT-Developer" class="social btn-floating black">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--HTML 5 VIDEO добавить свое видео-->
+                    <video id="html-video" class="video" poster="images/poster/poster.jpg" controls>
+                        <!--SERVER HOSTED VIDEO изменить-->
+                        <source src="videos/#" type="video/webm">
+                        <source src="videos/#" type="video/mp4">
+                    </video>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==========================================
+                   ABOUT
+===========================================-->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- DETAILS -->
+                <div id="about-card" class="card">
+                    <div class="card-content">
+                        <!-- ABOUT PARAGRAPH -->
+                        <p>
+                            Я — веб-разработчик мультимедийных приложений с четырехлетним опытом обучения в колледже при Финансовом университете. В процессе обучения я реализовала три веб-сайта, а также разработала дипломный проект на тему «Разработка веб-ресурса студии боди-арта», в котором успешно реализовала функционал регистрации и авторизации пользователей, личный кабинет клиента и базу данных на SQL.
+
+Дополнительно я прошла шесть месяцев практики в IT-отделе компании Amber Lads, где получила ценный опыт работы в реальных проектах и улучшила свои навыки в разработке и поддержке веб-приложений.
+
+В настоящее время я учусь на первом курсе Московского технологического института, на факультете прикладной информатики, где углубляю свои знания в области интернет-технологий и мобильных приложений. Также у меня есть более года опыта в сфере продаж, что помогло развить навыки общения и понимания потребностей клиентов.
+
+Моя страсть к веб-разработке и стремление к постоянному обучению позволяют мне эффективно решать поставленные задачи и достигать высоких результатов
+                        </p>
+                    </div>
+
+                    <!-- BUTTONS -->
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <!-- DOWNLOAD CV BUTTON -->
+                            <a href="resume/resume-titovavv.pdf" class="btn waves-effect">Pезюме в PDF</a>
+                            <!-- CONTACT BUTTON -->
+                            <a href="#contact" class="btn waves-effect">Свяжитесь со Мной</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--==========================================
+                   EDUCATION
+===========================================-->
+<section id="education" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/book.png" alt="demo">Образование</h4>
+        </div>
+
+        <div id="timeline-education">
+
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>К</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Финансовый Университет при Правительстве Российской Федерации Федеральное государственное образовательное бюджетное учереждение высшего образования</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Факультет: Информационные системы и програмирование</small>
+                            </h6>
+                            <h6>
+                                <small>2020 - 2024</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Специализация: Веб-разработчик мультимедийных приложений
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>М</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Московский Технологический Институт</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Факультет: Прикладная информатика</small>
+                            </h6>
+                            <h6>
+                                <small>2024 - 2028</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Специализация: Интернет-технологии и мобильные приложения
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   SKILLS
+===========================================-->
+<section id="skills" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/mixer.png" alt="demo">Навыки</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="skills-card" class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- FIRST SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Профессиональный</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>HTML</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>CSS</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>jQuery</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="68%">
+                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- SECOND SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Личный</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Комуникативность</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>Командная работа</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Креативность</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Любознательность</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- THIRD SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Программное обеспечение</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Curcor</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Adobe</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>EmailJG</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Владение ИИ</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">50%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   EXPERIENCE
+===========================================-->
+<section id="experience" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/layers.png" alt="demo">Опыт</h4>
+        </div>
+
+        <div id="timeline-experience">
+
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>D</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Стажер-разработчик</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Amber Lads</small>
+                            </h6>
+                            <h6>
+                                <small>01.07.2023 - 29.03.2024</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Выполнение работ по модификации отдельных компонентов программного обеспечения в соответствии с потребностями заказчик
+
+                            Выполнение отладки программных модулей с использованием специализированных программных средств
+
+                            Разработка веб-страници на основе разработаного дезайна и оснащение проекта базой данных
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>F</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Стажерr</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Первый Бит</small>
+                            </h6>
+                            <h6>
+                                <small>12.12.2024-</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                           Прохожление обучения по инструментам и процессам 1С
+                           Выполнение практики по изученому материялу 
+                           подготовка к сертификации
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!--==========================================
+                  PORTFOLIOS
+===========================================-->
+<section id="portfolios" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Портфолио</h4>
+        </div>
+        <div id="portfolios-card" class="row">
+
+            <!--OPTIONS-->
+            <ul class="nav nav-tabs">
+                <!--ALL CATEGORIES-->
+                <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all"
+                                                                data-toggle="tab">Все</a>
+                    <!--CATEGORIES-->
+                <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">Верстка</a></li>
+                <li class="waves-effect list-shuffle"><a class="cate" href="http://v9672988.beget.tech/single.html" data-toggle="tab">Веб-сайт</a></li>
+            </ul>
+
+            <!--CATEGORIES CONTENT-->
+            <div class="tab-content">
+
+                <!--All CATEGORIES-->
+                <div id="all"></div>
+
+                <!--CATEGORY 1-->
+                <div id="a">
+
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Сайт - дипломная работа</p>
+                                <a href="images/portfolios/big-1.jpg" class="popup-image" data-effect="mfp-3d-unfold">Посмотреть
+                                    больше</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT TWO SMALL добавить свое видео-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2><i class="fa fa-play-circle" aria-hidden="true"></i>Lightbox <span> Video</span>
+                                </h2>
+                                <p>Я разработала это для одного клиента для студии боди-арта</p>
+                                <a class="popup-vimeo" href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Два Эффекта Наведения Курсора Мыши На Блоки Сетки Портфолио. Готово</p>
+                                <a href="images/portfolios/portfolio-2.jpg" class="popup-image"
+                                   data-effect="mfp-move-horizontal">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <!--CATEGORY 2-->
+                <div id="b">
+
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Эффект также доступен для изображения лайтбокса Проверьте Документ</p>
+                                <a href="images/portfolios/big-2.jpg" class="popup-image"
+                                   data-effect="mfp-move-from-top">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Для изготовления этого образца был использован новейший дизайн материала</p>
+                                <a href="images/portfolios/portfolio-3.jpg" class="popup-image"
+                                   data-effect="mfp-3d-unfold">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Lightbox <span> IMAGE</span></h2>
+                                <p>Я разработала это для одного клиента для студии боди-арта</p>
+                                <a href="images/portfolios/portfolio-4.jpg" class="popup-image"
+                                   data-effect="mfp-with-fade">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <!--CATEGORY 3-->
+                <div id="c">
+                    <!--CATEGORY CONTENT ONE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/big-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-1.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT FOUR SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-2.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT FIVE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-3.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT SIX SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect-up">
+                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Single <span> PAGE</span></h2>
+                                <p>Подробно продемонстрируйте свое портфолио на одной странице</p>
+                                <a href="single-portfolio-dark.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!--PORTFOLIOS ADD GALLERY BUTTON-->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon"
+                                                                                         class="fa fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==========================================
+                   INTEREST
+===========================================-->
+<section id="interest" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/heart.png" alt="demo">Интерес</h4>
+        </div>
+
+        <div id="interest-card" class="card">
+            <!--INTEREST TEXT-->
+            <div class="card-content">
+                <p>
+                    Люблю проводить время с семьей, узнавать что-то новое и развивать свои навыки 
+                    в различных областьх жизни и работы, увлекаюсь дизайном и живописью. 
+                    Улучшить профессиональные навыки, чтобы стать ведущим экспертом в своей области
+                </p>
+            </div>
+
+            <!--INTEREST ICONS-->
+            <div class="row no-gutters">
+
+                <!--INTEREST ICON ONE-->
+                <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-music"></i>
+                        <span>Музыка</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON TWO-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-gamepad"></i>
+                        <span>Стратегии</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON THREE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-camera"></i>
+                        <span>Фоторедакторы</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FOUR-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-edit"></i>
+                        <span>Дизайн</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FIVE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-plane"></i>
+                        <span>Кулинария</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON SIX-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-film"></i>
+                        <span>Видеомонтаж</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==========================================
+                  CONTACT
+===========================================-->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/envelope.png" alt="demo">Контакты</h4>
+        </div>
+        
+        <form id="contact-form">
+            <div class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Имя" required>
+                <input type="text" id="subject" name="subject" placeholder="Тема" required>
+                <input type="email" id="email" name="email" placeholder="Почта" required>
+                <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
+                <button type="submit" id="sendButton">Отправить</button>
+                <div id="responseMessage"></div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!--==========================================
+                     SCROLL TO TOP
+===========================================-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
+</div>
+
+<!--==========================================
+                      FOOTER
+===========================================-->
+
+<footer>
+    <div class="container">
+        <!--FOOTER DETAILS-->
+        <p class="text-center">
+            © Краткое содержание материала. Все права защищены
+            <a href="http://trimatrixlab.com/" target="_blank">
+                <strong>Титова ВВ</strong>
+            </a>
+        </p>
+    </div>
+</footer>
+
+
+<!--==========================================
+                  SCRIPTS
+===========================================-->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+<script src="javascript/vendors/bootstrap.min.js"></script>
+<script src="javascript/vendors/materialize.min.js"></script>
+<script src="maps.googleapis.com/maps/api/4.js"></script>
+<script src="javascript/vendors/markerwithlabel.min.js"></script>
+<script src="javascript/vendors/retina.min.js"></script>
+<script src="javascript/vendors/scrollreveal.min.js"></script>
+<script src="javascript/vendors/swiper.jquery.min.js"></script>
+<script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
+<script src="javascript/custom-dark.js"></script>
+<script src="javascript/vendors/form.js"></script>
+<script>
+    (function() {
+        // Инициализация EmailJS с выводом в консоль
+        try {
+            emailjs.init("7I5vPOhwUDyN53DFm");
+            console.log("EmailJS initialized successfully");
+        } catch (error) {
+            console.error("EmailJS initialization error:", error);
+        }
+        
+        const form = document.getElementById('contact-form');
+        const btn = document.getElementById('sendButton');
+        const responseDiv = document.getElementById('responseMessage');
+    
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            console.log("Form submitted");
+            
+            btn.disabled = true;
+            btn.textContent = 'Отправка...';
+            const templateParams = {
+            from_name: document.getElementById('name').value,
+            subject: document.getElementById('subject').value,
+            from_email: document.getElementById('email').value,
+            message: document.getElementById('message').value
+        };
+
+        console.log("Sending email with params:", templateParams);
+
+        // Отправляем email с правильными параметрами
+        emailjs.send('service_smk50cr', 'template_s2v19v6', templateParams)
+            .then(function(response) {
+                console.log("SUCCESS!", response);
+                responseDiv.innerHTML = '<div class="alert alert-success">Сообщение успешно отправлено!</div>';
+                form.reset();
+            })
+            .catch(function(error) {
+                console.error("FAILED...", error);
+                responseDiv.innerHTML = `<div class="alert alert-danger">Ошибка при отправке: ${error.text}</div>`;
+            })
+            .finally(function() {
+                btn.disabled = false;
+                btn.textContent = 'Отправить';
+            });
+    });
+})();
+</script>
+</body>
+</html>
