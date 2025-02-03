@@ -30,7 +30,7 @@ arduino
     ├── 2.css
     └── 3.css
 
-/www.trimatrixlab.com/
+/web/
 ├── /images/
 │   ├── icons/
 │   ├── work.png
