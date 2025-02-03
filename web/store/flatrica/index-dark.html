@@ -831,7 +831,7 @@
     (function() {
         // Инициализация EmailJS с выводом в консоль
         try {
-            emailjs.init("7I5vPOhwUDyN53DFm");
+            emailjs.init("#"); // замените на свой ключ
             console.log("EmailJS initialized successfully");
         } catch (error) {
             console.error("EmailJS initialization error:", error);
@@ -857,7 +857,7 @@
         console.log("Sending email with params:", templateParams);
 
         // Отправляем email с правильными параметрами
-        emailjs.send('service_smk50cr', 'template_s2v19v6', templateParams)
+        emailjs.send('service_#', 'template_#', templateParams)
             .then(function(response) {
                 console.log("SUCCESS!", response);
                 responseDiv.innerHTML = '<div class="alert alert-success">Сообщение успешно отправлено!</div>';
