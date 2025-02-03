@@ -6,10 +6,10 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    const serviceID = 'YOUservice_smk50cr'; // Замените на ваш Service ID
-    const templateID = 'template_s2v19v6'; // Замените на ваш Template ID
+    const serviceID = 'YOUservice_#'; // Замените на ваш Service ID
+    const templateID = 'template_#'; // Замените на ваш Template ID
 
-    emailjs.send('YOUservice_smk50cr', 'template_s2v19v6', templateParams)
+    emailjs.send('YOUservice_#', 'template_#', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById('responseMessage').innerHTML = 
